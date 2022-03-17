@@ -7,10 +7,11 @@ import java.util.Scanner;
 
 /**
  * SolutionFibonacciSeries
+ * @objective This class provides method to find the fibonacci series upto n numbers
  * @author Rohitdutt Parsai
  * 17/03/2022
  */
-public class SolutionFibonacciSeries {
+public class FibonacciSeriesSolution {
 	
 	/**
 	 * fibonacciSeriesUptoN
@@ -33,10 +34,10 @@ public class SolutionFibonacciSeries {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		SolutionFibonacciSeries solutionFibonacciSeries = new SolutionFibonacciSeries();
+		FibonacciSeriesSolution fibonacciSeriesSolution = new FibonacciSeriesSolution();
 		System.out.println("Enter number");
 		int input = sc.nextInt();
-		solutionFibonacciSeries.fibonacciSeriesUptoN(input);
+		fibonacciSeriesSolution.fibonacciSeriesUptoN(input);
 	}
 
 }

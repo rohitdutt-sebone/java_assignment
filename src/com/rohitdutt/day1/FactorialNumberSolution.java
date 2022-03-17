@@ -7,10 +7,11 @@ import java.util.Scanner;
 
 /**
  * SolutionFactorialNumber
+ * @Objective This class provides method to find the factorial of a given number
  * @author Rohitdutt Parsai
  * 17/03/2022
  */
-public class SolutionFactorialNumber {
+public class FactorialNumberSolution {
 	
 	/**
 	 * factorialNumber
@@ -28,11 +29,11 @@ public class SolutionFactorialNumber {
 	}
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		SolutionFactorialNumber solutionFactorialNumber = new SolutionFactorialNumber();
+		Scanner scanner = new Scanner(System.in);
+		FactorialNumberSolution factorialNumberSolution = new FactorialNumberSolution();
 		System.out.println("Enter number");
-		int input = sc.nextInt();
-		System.out.println(solutionFactorialNumber.factorialNumber(input));
+		int input = scanner.nextInt();
+		System.out.println(factorialNumberSolution.factorialNumber(input));
 	}
 
 }

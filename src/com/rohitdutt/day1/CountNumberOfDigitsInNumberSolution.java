@@ -7,10 +7,11 @@ import java.util.Scanner;
 
 /**
  * SolutionCountNumberOfDigitsInNumber
+ * @objective Class provides method to count the number of digits in an given Number
  * @author Rohitdutt Parsai
  * 17/03/2022
  */
-public class SolutionCountNumberOfDigitsInNumber {
+public class CountNumberOfDigitsInNumberSolution {
 	
 	/**
 	 * countNumberOfDigitsInNumber
@@ -28,11 +29,11 @@ public class SolutionCountNumberOfDigitsInNumber {
 	}
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		SolutionCountNumberOfDigitsInNumber solutionCountNumberOfDigitsInNumber = new SolutionCountNumberOfDigitsInNumber();
+		Scanner scanner = new Scanner(System.in);
+		CountNumberOfDigitsInNumberSolution countNumberOfDigitsInNumberSolution = new CountNumberOfDigitsInNumberSolution();
 		System.out.println("Enter number");
-		int input = sc.nextInt();
-		System.out.println(solutionCountNumberOfDigitsInNumber.countNumberOfDigitsInNumber(input));
+		int input = scanner.nextInt();
+		System.out.println(countNumberOfDigitsInNumberSolution.countNumberOfDigitsInNumber(input));
 	}
 
 }

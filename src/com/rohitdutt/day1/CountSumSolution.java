@@ -7,10 +7,11 @@ import java.util.Scanner;
 
 /**
  * SolutionCountSum
+ * @objective This class provides method to count the sum of number till the given Number
  * @author Rohitdutt Parsai
  * 17/03/2022
  */
-public class SolutionCountSum {
+public class CountSumSolution {
 	
 	/**
 	 * countSum
@@ -27,10 +28,10 @@ public class SolutionCountSum {
 	}
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		SolutionCountSum solutionCountSum = new SolutionCountSum();
+		Scanner scanner = new Scanner(System.in);
+		CountSumSolution countSumSolution = new CountSumSolution();
 		System.out.println("Enter number");
-		int input = sc.nextInt();
-		System.out.println(solutionCountSum.countSum(input));
+		int input = scanner.nextInt();
+		System.out.println(countSumSolution.countSum(input));
 	}
 }

@@ -4,10 +4,11 @@ import java.util.Scanner;
 
 /**
  * SolutionReverseString
+ * @objecyive This class provides method to reverse a string
  * @author Rohitdutt Parsai
  * 17/03/2022
  */
-public class SolutionReverseString {
+public class ReverseStringSolution {
 	
 	/**
 	 * reverseString
@@ -31,11 +32,11 @@ public class SolutionReverseString {
 	}
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		SolutionReverseString solutionReverseString = new SolutionReverseString();
+		Scanner scanner = new Scanner(System.in);
+		ReverseStringSolution reverseStringSolution = new ReverseStringSolution();
 		System.out.println("Enter string");
-		String input = sc.nextLine();
-		System.out.println(solutionReverseString.reverseString(input));
+		String input = scanner.nextLine();
+		System.out.println(reverseStringSolution.reverseString(input));
 	}
 
 }
